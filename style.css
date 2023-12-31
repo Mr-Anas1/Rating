@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+
+body {
+    font-family: overpass;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  hsl(216, 12%, 8%);
+    color: white;
+}
+
+.container {
+    width: 300px;
+    background-color:hsl(212, 16%, 15%);
+    border-radius: 20px;
+    color: white;
+    padding: 35px;
+}
+
+.text {
+    color: hsl(221, 9%, 53%);
+    margin-top: 10px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color:hsl(216, 13%, 23%);
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color:hsl(216, 13%, 23%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(221, 9%, 53%);
+    border: none;
+}
+
+.no.active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.no.pre_active {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.btn {
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    transition: tarnsform 0.4s ease;
+}
+
+.btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+.box.main {
+    text-align: left;
+}
+
+.box {
+    text-align: center;
+    display: none;
+    
+}
+
+.box.active {
+    display:  block;
+}
+
+.rate_text {
+    color: hsl(25, 97%, 53%);
+    font-size: small;
+    background-color: hsl(216, 13%, 23%);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.status {
+    width: 150px;
+    position: relative;
+    left: 25%;
+}
+
